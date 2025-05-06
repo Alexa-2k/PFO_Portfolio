@@ -131,6 +131,7 @@ hr {
   text-align: left;
 }
 
+/*En el perfil en español ensancho el div de la lista para que cada ítem quepa en una única línea. Podría usar el mismo ancho en inglés, pero no me gusta cómo queda ubicada la lista, así que debería modificar la ubicación. De un modo u otro tendría que darle una propiedad única a alguna de las dos listas */
 #profile-list_sp {
   width: 19%;
 }  
