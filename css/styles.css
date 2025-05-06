@@ -1,0 +1,266 @@
+/*RESET. Inicialización de márgenes, padding y box-sizing en cero*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*FORMATO DEL BODY y DEFINICIONES GENERALES*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  color: #40514E;
+  padding: 0;
+  border: 0;
+}
+
+
+h1 {
+  margin: 0 auto;
+  border: 0;
+  padding: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.3rem;
+  color: #66BFBF;
+  font-weight: normal;
+  margin: 1.5rem;
+}
+
+h3 {
+  color: #11999E;
+  margin: 0.5rem;
+}
+
+p {
+  line-height: 2;
+}
+
+/*===============================================================*/
+/*PORTADA*/
+
+.introduction {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 5rem;
+  text-align: center;
+  height: 100vh;
+}
+
+.languages {
+  position: fixed;
+  top: 1%;
+  left: 1%;  
+  color:#11999E;
+  text-decoration: none;
+  }
+
+.top_cloud {
+  position: absolute;
+  top: 11rem;
+  right: 15rem;
+}
+
+.sun {
+  position: absolute;
+  top: 1.85rem;
+  right: 10rem;
+}
+
+.bottom_cloud {
+  position: absolute;
+  bottom: 15rem;
+  left: 19rem;
+}
+
+.mountains {
+  border: 0;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 30vw;
+  height: 55vh;
+}
+
+.pro {
+  color: #FFA1A1;
+}
+
+/*===============================================================*/
+/*DIVISOR HORIZONTAL*/
+
+hr {
+  border: dotted lightgrey 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 40px auto;
+}
+
+
+/*===============================================================*/
+/*PERFIL GENERAL*/
+
+.profile {
+  position: relative;
+  text-align: center;
+}
+
+.intro {
+  font-size: 1.1rem;
+  font-weight: bolder;
+  color: #40514E; 
+  width: 40%;
+  margin: auto;
+}
+
+
+/*===============================================================*/
+/*PERFIL BÁSICO*/
+.profile-pic {
+  margin:2% auto;
+}
+/*lista desordenada. Uso margen y ancho para ubicarla*/
+.profile-list {
+  width: 16%;
+  margin: auto;
+  text-align: left;
+}
+
+#profile-list_sp {
+  width: 19%;
+}  
+  
+ /*===============================================================*/
+/*SKILLS*/
+/*Tabla de habilidades */
+.skill-table {
+  width: 60%;
+  margin: 1% auto;
+}
+
+.skill-table td {
+ vertical-align: top;
+ padding: 15px;
+}
+
+.skill-img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.skill-table h3 {
+  margin: 0;
+  text-align: left;
+  color: #333;
+}
+
+.skill-table p {
+  margin: 5px 0 0 0;
+  color: #666;
+}
+
+/*===============================================================*/
+/*HOBBIES*/
+
+.hobby-img {
+  margin: 45px 15px;
+}
+
+.hobbies-txt {
+  width: 40%;
+  margin: 0 auto;
+}
+
+/*===============================================================*/
+/*SECCION DE CONTACTO*/
+
+.contact-me {
+  margin: 3rem;
+}
+
+.form_field {
+  margin: auto;
+  border-radius: 8px;
+  border: 1px solid #66BFBF;
+  padding: 5px 10px;  
+  height: 2rem;
+  width: 35%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+.form_field:focus {
+  background-color: #e9f9f6b0;
+  outline: none;
+  border: 2px solid #66BFBF; 
+}
+
+.radio-option {
+    display: inline-block;
+    margin-right: 20px;
+    accent-color: #66bfbf;
+  }
+
+.message {
+ height: 10rem; 
+ margin-bottom: 2rem;
+}
+
+.form_btn {
+  background-image: linear-gradient(to bottom, #11CDD4, #043f41);
+  border: none;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 1.1rem;
+  padding: 1%;
+  margin: 1rem;
+  width: 10%;
+  text-decoration: none;
+}
+
+.form_btn:hover {
+  background-image: linear-gradient(to top, #30E3CB, #26B09D);
+  text-decoration: none;
+  box-shadow: 0 0.8rem 0.8rem 0 rgba(0,0,0,0.24);
+
+}
+
+/*===============================================================*/
+/*PIE DE PÁGINA*/
+
+footer {
+  background-color: #043F41;
+  text-align: center;
+  padding: 1.5rem 0;
+  position: relative;  
+}
+
+.footer_link {
+  display: inline-block;
+  margin: 1% 3%;
+  color: #EAF6F6;
+  text-decoration: none;
+  font-weight: bolder;
+  
+}
+
+.footer_link:hover {
+  color: #30E3CA;
+  
+}
+
+.copyright-me {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 0;
+  position: relative;
+  
+}

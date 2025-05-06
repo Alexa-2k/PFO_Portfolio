@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- Define idioma (en este caso, español latinoamericano y dirección del texto (de izquierda a derecha) -->
+
+<html lang="es-419" dir="ltr">  
+<!-- ENCABEZADO: contiene el título, metadatos (juego de caracteres), ubicación de archivos de estilo, imágenes, y fuentes -->
+  <head>
+    <meta charset="utf-8">
+    <title> Lorena Rachich</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+
+<!-- CUERPO DE LA PAGINA -->
+  <body>
+    
+    <!-- PORTADA: contiene la imagen principal, el título y la presentación -->
+      <!-- *MÁS ADELANTE*: animar las nubes y el sol para que suba como en un amanecer, y que después aparezcan las letras. El span "pro" puede animarse de modo diferente al resto -->   
+         
+    <header class="introduction">
+        <a href="index-eng.html" class="languages">View in English</a>
+        <img class="top_cloud" src="images/cloud1.png" alt="white cloud image">
+        <img class="sun" src="images/sun.png" alt="sunimage">
+        <!-- Debería poner ´Soy Alexa´, pero me gusta el juego de palabras en inglés, con "Lore" -->
+        <h1>Soy Lore.</h1>
+        <h2>una <span class="pro">pro</span>gramadora.</h2>
+        
+        <img class="bottom_cloud" src="images/cloud2.png" alt="grey cloud image">
+        <img class="mountains" src="images/mountains.png" alt="mountains image">
+          
+    </header>
+       
+    <main>
+        <hr>
+      <!-- PERFIL BÁSICO -->
+      <section class="profile">
+          <img class="profile-pic" src="images\circled anime 192.png" alt="Lore-anime-pic">
+          <h2>Hola.</h2>
+          <p class="intro">Bienvenidos a mi sitio personal! </p> 
+          <p class="intro"> Soy Lore, </p>
+          <br>
+      
+          <!-- Lista desordenada de habilidades profesionales -->
+          <!-- Mejorar la vista de este listado con un carrousel con imágenes alusivas -->
+          <ul class="profile-list" id="profile-list_sp">
+              <li>desarrolladora web principiante</li>
+              <li>programadora</li>
+              <li>ingeniera electrónica</li>
+              <li>astronoma</li>
+              <li>profesora</li>
+              <li>viajera</li>
+              <li>nómade</li>
+          </ul>     
+      </section>
+        
+      <hr>
+      
+      <!-- CONOCIMIENTOS / HABILIDADES -->
+      <!-- En esta sección se puede resaltar cada cuadro al hacer hover, con cambio de tamaño, relieve, etc -->
+      <!-- También me gustaría probar algo más gráfico, usando los logos de cada lenguaje o framework, y tal vez también con las banderas alusivas a los idiomas y las materias que enseño -->
+      
+      <section id="skills">
+        <h2>Mis conocimientos.</h2>
+          
+          <table class="skill-table">
+            <tr>
+              <td><img class="skill-img" src="images/coding-circled.png" alt="coding image from https://www.flaticon.com"></td>
+              <td>
+                <h3>Programación</h3>
+                <p>HTML, CSS, JavaScript, Node.JS, React.JS, MySQL, PHP, Python, C#, C++, Java, Assembly. </p>
+              </td>
+            </tr>
+            
+            <tr>
+             <td>
+                <h3>Idiomas</h3>
+                <p>El español es mi lengua nativa, hablo fluidamente inglés, portugués, italiano, comprendo francés, y estoy aprendiendo croata.</p>
+              </td>
+              <td><img class="skill-img" src="images/languages.png" alt="Languages icons created by Freepik - Flaticon">
+              </td>
+            </tr>
+            
+            <tr>
+              <td><img class="skill-img" src="images/maths medium.png" alt="School stickers created by Stickers - Flaticon"></td>
+              <td>
+                <h3>Docencia</h3>
+                <p>Soy profesora de Matemáticas, Fisica, Química, Astronomía e Informática</p>
+                    <!-- *MÁS ADELANTE*:Podría agregar una página de turnos para clases linkeada a un calendario-->
+              </td>
+            </tr>
+          </table>   
+      </section>
+        
+     <!-- *MÁS ADELANTE*:Agregar sección de proyectos en Github, con thumbnails y links a los repositorios-->
+ 
+     <!-- Fin de sección main, lo que sigue son detalles que no hacen al tema principal -->
+    </main>
+    
+    <hr>
+   
+    <!-- HOBBIES -->
+    <!-- Quiero animar esta parte con íconos que floten en la pantalla -->
+      <section class="hobbies">
+          <h2>Mis Hobbies.</h2>
+   
+          <!-- Imágenes de mis hobbies -->
+            <img class="hobby-img" src="images/telescope medium.png" alt= Telescope stickers created by Good Ware - Flaticon">
+            <img class="hobby-img" src="images/baggage.png " alt= "Travel icons created by Freepik - Flaticon ">
+            <img class="hobby-img" src="images/package-box.png" alt="Screwdriver icons created by srip - Flaticon">
+            <img class="hobby-img" src="images/cooking.png" alt=" Cooking icons created by mangsaabguru - Flaticon">
+            <img class="hobby-img" src="images/cake-decoration.png" alt="Pastry icons created by Freepik - Flaticon">
+
+          <h3>Esto es lo que <span class="pro">amo</span> hacer en mi tiempo libre</h3>
+          <p class="hobbies-txt">Observar el cielo con mis telescopios, viajar, coleccionar herramientas y arreglar cosas, cocinar, hacer jardinería, repostería y decorar tortas.</p>
+       </section>
+        
+      <hr>
+    
+    <!-- FORMULARIO DE CONTACTO -->
+    <!-- falta darle funcionalidad -->
+      <section class="contact-me">
+          <h2>Entremos en contacto!</h2>
+            <form>
+              <input class="form_field name" type="text"  name="name" placeholder="Nombre" required><br><br>
+              <input class="form_field last_name" type="text"  name="last_name" placeholder="Apellido" required><br><br>
+              <input class="form_field phone" type="tel"  name="phone" placeholder="Nro de celular" required><br><br>
+              <input class="form_field email" type="email"  name="email" placeholder="E-mail"><br><br>
+              
+             <section class="contact_type">
+                <p>¿Qué medio de contacto prefiere?</p>
+
+                <div class="radio-option">
+                  <input type="radio" class="rd_mail" name="contact" value="email">
+                  <label for="rd_mail">E-mail</label>
+                </div>
+
+                <div class="radio-option">
+                  <input type="radio" class="rd_wap" name="contact" value="whatsapp">
+                  <label for="rd_wap">WhatsApp</label>
+                </div>
+                <br><br>
+            </section>
+              
+              <textarea class="form_field message" name="message"  placeholder="Déjeme un mensaje"></textarea><br><br>
+              <input class="form_btn" type="submit"  name="Contact Me" value = "Enviar">
+              <input class="form_btn" type="reset" name="Reset" value = "Borrar">
+            </form>
+            
+       </section>
+    
+    <!-- PIE DE PAGINA -->
+    <!-- *MÁS ADELANTE: cambiar los textos de los enlaces por los íconos correspondientes -->
+       <footer>
+        
+          <a href="https://www.linkedin.com/in/lorena-rachich/" class="footer_link">LinkedIn</a>
+          <a href="https://x.com/Alexa_2k/" class="footer_link">X</a>
+          <a href="https://github.com/Alexa-2k/" class="footer_link">GitHub </a>
+        
+          <p class="copyright-me">© 2025 Alejandra Lorena Rachich.</p>
+       </footer>
+  </body>
+</html>
