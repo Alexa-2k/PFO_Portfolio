@@ -1,4 +1,4 @@
-# Personal_Page
+# Portfolio
 Modelo de portfolio en desarrollo, utilizando HTML, CSS y JavaScript. <br> Práctica formativa para la materia Front End de la Tecnicatura superior en desarrollo de software <br>
 Enlace a página:  https://alexa-2k.github.io/PFO_Portfolio/
 
